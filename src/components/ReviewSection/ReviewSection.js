@@ -58,9 +58,11 @@ const ReviewSection = () => {
             />
           </Slide>
         </Slider>
-        {/* <ButtonBack />
-        <ButtonNext /> */}
-        <DotGroup className="dot" />
+        <div className="reviewSection__buttonDiv">
+          <ButtonBack className="reviewSection__button" />
+          <ButtonNext className="reviewSection__button" />
+        </div>
+        {/* <DotGroup className="dot" /> */}
       </CarouselProvider>
     </div>
   );

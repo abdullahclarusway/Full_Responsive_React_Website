@@ -8,6 +8,7 @@
     font-size: 30px;
     font-weight: bold;
     color: #000;
+    margin: 2em;
     @media screen and (max-width: 480px) {
       text-align: center;
     }
@@ -22,16 +23,18 @@
 }
 
 .carousel__inner-slide {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+   
+}
+.reviewSection__buttonDiv{
+    margin: 50px auto;
     display: flex;
     justify-content: center;
 }
-.dot{
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    /* background-color: #e4e4e4; */
-}
-.dot >button{
+
+.reviewSection__button{
     border-radius: 50%;
     width: 11px;
     height: 11px;
@@ -40,9 +43,9 @@
     margin-right: 3px;
     background-color: #E4E4E4;;  
 }
-.dot >button: {
+/* .dot >button:active {
     background-color: #c4c4c4;
-  }
+  } */
 
 /* .dot >button:active{
     border-radius: 50%;
