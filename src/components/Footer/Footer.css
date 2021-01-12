@@ -12,6 +12,13 @@
     height: 8em;
     border-radius: 50%;
     background-color:rgba(255,255,255,0.4);
+    margin-top: 50px;
+}
+.footer__logo  > h1 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 34px;
+    font-weight: 600;
 }
 .footer > h1 {
     font-size: 25px;
@@ -32,6 +39,7 @@
     transition: all 220ms ease-in-out;
     cursor: pointer;
     margin-top: 30px;
+    margin-bottom: 50px;
 }
 .footer > button:hover {
     background-color: transparent;
@@ -60,6 +68,7 @@
     transition: all 200ms ease-in-out;
     cursor: pointer;
     font-size: 14px;
+    padding: 5px;
     @media screen and (max-width: 480px) {
         font-size: 12px;
       }
@@ -72,6 +81,7 @@
     font-size: 20px;
     transition: all 200ms ease-in-out;
     cursor: pointer; 
+    padding: 5px;
 }
 .footer__access--social > div:hover{
     color: #adadad;
