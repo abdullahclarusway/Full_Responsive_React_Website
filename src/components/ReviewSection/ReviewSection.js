@@ -22,7 +22,7 @@ const ReviewSection = () => {
       <h2 className="reviewSection__title">What others are saying about us</h2>
       <CarouselProvider
         naturalSlideWidth={200}
-        naturalSlideHeight={205}
+        naturalSlideHeight={240}
         totalSlides={4}
         visibleSlides={2}
         dragEnabled={false}

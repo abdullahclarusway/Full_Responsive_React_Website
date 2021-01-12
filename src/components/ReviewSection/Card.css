@@ -1,22 +1,22 @@
 .cardContainer{
     width: 350px;
-    height: 300px;
+    height: 310px;
     background-color: #fff;
     box-shadow: 1px 1px 7px rgba(17, 17, 17, 0.2);
     /* border:1px solid black; */
     border-radius: 3px;
     margin: 5px 30px;
     position: relative;
-    padding: 10px 1.2em;
+    padding: 10px 20px;
     
     
 }
 .cardContainer__icon{
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 5px;
+    left: 5px;
     color: #d1d1d1;
-    font-size: 37px;
+    font-size: 30px;
    
 }
 /* .icon{
@@ -25,12 +25,12 @@
     width: 100px;
 } */
 .cardContainer__text{
-    font-size: 17px;
+    font-size: 15px;
     color: #585858;
     font-weight: normal;
     display: flex;
     justify-content: center;
-    margin:70px 5px 10px 5px;
+    margin:50px 5px 10px 5px;
     /* margin: 7em; */
 }
 .cardContainer__line{
